@@ -1,0 +1,197 @@
+.backBio{
+    width: 100vw;
+    max-width: 100%;
+   /*  background: linear-gradient(0deg, #6D8293, #08437A); */
+    background: linear-gradient(0deg,  #9e9e9e, #6D8293); 
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aroundBio{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4rem;
+    width: 88vw;
+    margin-top: 2rem;
+}
+.aroundButtonBio{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.bioImg{
+    width: 80vw;
+    object-fit: cover;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.8rem;
+}
+.bioText{
+    font-family: "Rokkitt", serif;
+    color: rgb(255, 255, 255);
+    width: 60vw;
+    font-size: 18px;
+}
+.aroundBioText{
+    width: 77vw;
+}
+.buttonBio{
+    color: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+.aroundBioImgText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aroundCvImgText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.acordiones{
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+.titleAcord{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.2));
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: 1px white solid;
+    font-family: "Rokkitt", serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+}
+.chevron{
+    color: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 18px;
+}
+.bodyAcord{
+    text-align: right;
+    font-size: 17px;
+    color: white;
+    border: 1px white solid;
+    font-family: "Rokkitt", serif;
+    padding-top: 1rem;
+}
+.textCv{
+    font-family: "Rokkitt", serif;
+    color: white;
+    overflow: auto;
+    padding-left: 0.6rem;
+    padding-right: 0.5rem;
+
+}
+.imgCv{
+    width: 80vw;
+    object-fit: cover;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;    
+}
+.aroundButtonBio{
+    display: flex;
+    justify-content: center;
+}
+.aroundButtonCv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+}
+@media(min-width: 992px){
+    .backBio{
+        min-height: 100vh;
+    }
+    .spaceBio{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        min-height: 100vh;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .aroundBio{
+        width: 70vw;
+        padding: 2rem;
+    }
+    .aroundBioImgText{
+        display: flex;
+        flex-direction: row;
+    }
+    .bioImg{
+        width: 34vw;
+        height: 60vh;
+        margin-top: 2.5rem;
+        margin-left: 1.5rem;
+    }
+    .aroundBioText{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .buttonBio{
+      font-size: 30px;
+    
+    }
+    .aroundCvImgText{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .acordion{
+        margin-bottom: 1rem;
+        width: 36vw;
+    }
+    .titleAcord{
+        padding: 0.8rem;
+        font-size: 18px;
+    }
+    .chevron{
+        font-size: 22px;
+    }
+ 
+    .textCv{
+        padding-top: 1rem;
+    }
+    .imgCv{
+        margin-top: 2.5rem;
+        width: 25vw;
+        height: 70vh;
+        object-fit: cover;
+        margin-left: 2rem;
+    }
+    .aroundButtonBio{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        
+    }
+    .aroundButtonCv{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+}

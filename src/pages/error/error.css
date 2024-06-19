@@ -1,0 +1,93 @@
+.backError{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg, #6D8293, #880d5f);
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.aroundError{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    min-height: 80vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 88vw;
+    margin-top: 2rem;
+    /* box-shadow: rgba(255,255,255, 0.09) 5px 5px, rgba(255,255,255, 0.07) 10px 10px, rgba(255,255,255, 0.05) 15px 15px, rgba(255,255,255, 0.03) 20px 20px, rgba(255,255,255, 0.01) 25px 25px; */
+}
+.cardError{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/error404%2Fgl5.webp?alt=media&token=7e6254ee-a787-4d4e-9d93-12411c1d97d6");
+    width: 74vw;
+    height: 70vh;
+    background-size: cover;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.aroundChevronError{
+    display: flex;
+    justify-content: center;
+}
+.chevronError{
+    color: white;
+    font-size: 27px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.25rem;
+}
+.textError{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 50vw;
+}
+@media(min-width:768px){
+    .aroundError{
+        min-height: 80vh;
+        width: 80vw;
+    }
+    .cardError{
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/error404%2Fgl4.webp?alt=media&token=5a38669c-1dc5-4c5a-ac67-ad74830b9c84");
+        width: 70vw;
+        height: 70vh;
+    }
+    .chevronError{
+        font-size: 34px;
+    }
+    .textError{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        width: 40vw;
+    }
+}
+@media(min-width:1024px){
+    .aroundError{
+        width: 70vw;
+    }
+    
+    .cardError{
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/error404%2Fgl1.webp?alt=media&token=5657e11a-60d4-4f70-aab3-32daa777c65b");
+        width: 62vw;
+    }
+    .chevronError{
+        font-size: 37px;
+    }
+    .textError{
+        font-size: 30px;
+    }
+}

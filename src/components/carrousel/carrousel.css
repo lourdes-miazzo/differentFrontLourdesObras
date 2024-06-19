@@ -1,0 +1,21 @@
+.carrousel-container {
+    width: 80vw; /* Ancho deseado para el Carousel */
+    max-width: 800px; /* Ancho máximo del Carousel */
+    margin: 0 auto; /* Centrar el Carousel */
+  }
+  
+  .carrousel-image {
+    max-width: 100%; /* Ajustar imágenes al ancho del Carousel */
+    height: auto;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+  }
+  @media(min-width:1024px){  
+    .carrousel-container {
+    width: 50vw; 
+
+  }
+  
+
+}

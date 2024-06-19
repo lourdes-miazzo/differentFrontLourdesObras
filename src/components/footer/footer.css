@@ -1,0 +1,56 @@
+.backFooter{
+    background-color: rgba(255, 255, 255, .2);
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logoSoc{
+    color: white;
+    font-size: 18px;
+}
+.logo{
+    width: 5rem;
+    margin: 1rem;
+    margin-right: 1rem;
+}
+.socialArea{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+.emailSoc{
+    color: white;
+    font-size: 11px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+}
+@media (min-width:1024px){
+
+    .logoSoc{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 0.7rem;
+
+    }
+    .logo{
+        width: 6.5rem;
+        margin-left: 1.5rem;
+    }
+    .socialArea{
+        margin-right: 2.3rem;
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .emailSoc{
+        margin-right: 1.6rem;
+        font-size: 14px;
+
+    }
+}

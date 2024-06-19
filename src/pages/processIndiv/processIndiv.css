@@ -1,0 +1,110 @@
+.backProInd{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg,  #303030, #6D8293);
+   /*  background: linear-gradient(0deg, #6D8293, #790C70); */
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.aroundProInd{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1.2rem 1.7rem;
+    padding-top: 2rem;
+    width: 88vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgProInd{
+    width: 80vw;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+@media(min-width: 768px){
+
+    .aroundProInd{
+        width: 78vw;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imgProInd{
+        width: 32vw;
+        margin: 1rem;
+    }
+}
+.chevronProInd{
+    color: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 18px;
+}
+.aroundLoaderProInd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.loaderTextProInd{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+@media(min-width: 1024px){
+
+    .aroundProInd{
+        width: 80vw;
+        margin-top: 6rem;
+ 
+    }
+    .imgProInd{
+        width: 21.5vw;
+        margin: 1rem;
+    }
+    .imgProInd:hover{
+        transform: scale(1.4);
+        transition: ease 2s; 
+        
+    }
+
+    
+    .chevronProInd{
+        font-size: 24px;
+    }
+    .aroundBtnProInd{
+        margin-top: 4rem;
+        margin-left: 2.5rem;
+    }
+    .aroundAllImgProInd{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .aroundLoaderProInd{
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .loaderTextProInd{
+        justify-content: center;
+    }
+}

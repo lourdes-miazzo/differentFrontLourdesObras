@@ -1,0 +1,153 @@
+.backIndiv{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg,  #757575, #6D8293);
+ /*    background: linear-gradient(0deg, #6D8293, #08147A); */
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.aroundInd{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 88vw;
+    min-height: 80vh;
+}
+
+.cardIndiv{
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 20vh;
+    width: 80vw;
+    background-size: cover;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleIndiv{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-wrap: wrap;
+    width: 70%;
+    overflow-y: hidden;
+    text-align: center;
+}
+.allTextInd{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textIndiv{
+    font-family: "Rokkitt", serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+}
+.authorIndiv{
+    text-align: right;
+    font-family: "Rokkitt", serif;
+    color: rgb(255, 255, 255);
+}
+.linkIndiv{
+    text-align: right;
+    color:  #08147A;
+    font-family: "Rokkitt", serif;
+    text-decoration: none;
+}
+.linkIndiv:hover{
+    color: rgb(255, 255, 255);
+}
+
+.chevronTextInd{
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.25rem;
+    margin-left: 0.6rem;
+}
+.loaderText{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.aroundLoaderIndWork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 88vw;
+}
+@media(min-width: 1020px){
+
+    .aroundInd{
+        width: 70vw;
+        padding-bottom:3rem;
+        margin-top: 6rem;
+        padding-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    .cardIndiv{
+        height: 35vh;
+        width: 60vw;
+
+    }
+    .titleIndiv{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .allTextInd{
+    margin-top: 3rem;
+
+    width: 60vw;
+    }
+    .textIndiv{
+        font-size: 18px;
+        padding-bottom: 0.5rem;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .authorIndiv{
+        font-family: "Rokkitt", serif;
+        color: rgb(255, 255, 255);
+        font-size: 21px;
+        padding-top: 4rem;
+        
+    }
+    .linkIndiv{
+        margin-bottom: 2rem;
+    }
+    .chevronTextInd{
+        margin-left: 0.8rem;
+    }
+    .loaderText{
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .aroundLoaderIndWork{
+        height: 45vh;
+    }
+}

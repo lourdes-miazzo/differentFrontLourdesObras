@@ -1,0 +1,106 @@
+.backText{
+        width: 100vw;
+        max-width: 100%;
+      /*   background: linear-gradient(0deg, #6D8293, #08147A); */
+        background: linear-gradient(0deg,  #757575, #6D8293);
+        overflow-x: hidden; /* Evitar desbordamiento horizontal */
+        min-height: 100vh;
+}
+.spaceText{
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: center;
+}
+
+.titleText{
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        overflow-y: hidden;
+        text-align: center;
+        cursor: pointer;
+        text-wrap: wrap;
+        width: 70%;
+}
+    
+.cardText{
+        width: 74vw;
+        height: 25vh;
+        background-size: cover;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+
+}
+.aroundText{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        padding: 1.2rem 1.7rem;
+        padding-top: 2rem;
+        min-height: 80vh;
+}
+
+.loaderTextText{
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .aroundLoaderText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 75vw;
+    }
+
+@media(min-width: 992px){
+
+        .titleText{
+                font-size: 35px;
+                margin-left: 2rem;
+                margin-right: 2rem;
+        }
+        .titleText:hover{
+                transform: scale(1.3);
+                transition: transform 1.2s ease;
+        }  
+        .cardText{
+                width: 30vw;
+                height: 40vh;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                margin-top: 4rem;
+        }
+        .spaceText{
+                margin-top: 6rem;
+                margin-bottom: 6rem;
+        }
+        .aroundText{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80vw;
+        }
+        .aroundText2{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+        }
+        .loaderTextText{
+                margin-top: 1rem;
+                font-size: 22px;
+        }
+        .aroundLoaderText{
+        height: 45vh;
+        }
+}

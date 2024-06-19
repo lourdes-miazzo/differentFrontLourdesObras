@@ -1,0 +1,193 @@
+.backWork{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg,#616161, #6D8293);
+   /*  background: linear-gradient(0deg, #6D8293, #48097A); */
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 0;
+}
+.spaceWork{
+    min-height: 90vh;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aroundWorks{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWork{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.linkWork{
+    text-decoration: none;
+}
+.cardWork{
+    background-size: cover;
+    border-radius: 50%;
+    height: 40vh;
+    width: 80vw;
+    margin: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cardWork:hover{
+    transform: scale(1.1);
+    transition: ease 2s;
+}
+.seeMore{
+    color: white;
+    font-size: 25px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+.aroundLoaderWork{
+  
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+    width: 88vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.loaderTextWork{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+@media(min-width: 539px){
+    .cardWork{
+        height: 50vh;
+        width: 70vw;
+    }
+    .titleWork{
+        font-size: 24px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+}
+@media(min-width: 768px){
+
+
+    .aroundWorks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardWork{
+        width: 42vw;
+        height: 35vh;
+        margin-bottom: 4rem;
+        margin-left: 5px;
+    }
+    .titleWork{
+        font-size: 27px;
+    }
+
+    .seeMore{
+        font-size: 26px;
+    }
+    .loaderText{
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .aroundLoaderIndWork{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+}
+
+@media(min-width: 1024px){
+
+    .spaceWork{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .cardWork{
+        width: 31vw;
+        height: 52vh;
+    }
+    .cardWork:hover{
+        transform: scale(1.1);
+        transition: ease 2s;
+    }
+
+    .seeMore{
+        font-size: 28px;
+    }
+    .loaderText{
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .aroundLoaderIndWork{
+        height: 45vh;
+    }
+    .titleWork{
+        font-size: 28px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media(min-width: 1280px){
+
+    .spaceWork{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .cardWork{
+        width: 30vw;
+        height: 57vh;
+    }
+
+    .titleWork{
+        font-size: 35px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .seeMore{
+        font-size: 23px;
+    }
+    .loaderText{
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .aroundLoaderIndWork{
+        height: 45vh;
+    }
+}

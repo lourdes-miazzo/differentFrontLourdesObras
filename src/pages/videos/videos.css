@@ -1,0 +1,106 @@
+.backVideo{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg,  #505050, #6D8293);
+  /*   background: linear-gradient(0deg, #6D8293, #6A0B7A); */
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aroundVideo{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    width: 88vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+.videoInd{
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+    height: 43vh;
+}
+.videoInd2{
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 1.2rem;
+    width: 80vw;
+    height: 26vh;
+}
+.buttonVideo{
+    color: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-size: 25px;
+   
+}
+.videoInd3{
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2rem; 
+    width: 80vw;
+    height: 26vh;  
+}
+.videoInd4{
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+    width: 80vw;
+    height: 26vh;  
+}
+.aroundVideoLess{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.aroundVideoPlus{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+@media(min-width: 1023px){
+    .aroundVideo{
+        width: 70vw;
+        margin-top: 6rem;
+        padding: 4rem 7rem;
+        margin-bottom: 8rem;
+    }
+    .videoInd{
+        width: 40vw;
+        object-fit: cover;
+        height: 55vh;
+        margin-bottom: 3rem;
+    }
+    .videoInd2{
+        width: 40vw;
+        object-fit: cover;
+        height: 34vh;
+    }
+    .buttonVideo{
+        font-size: 30px;
+    }
+
+    .videoInd3{
+        width: 32vw;
+        object-fit: cover;
+        height: 38vh;
+        margin-bottom: 3rem;
+    }
+    .videoInd4{
+        width: 32vw;
+        object-fit: cover;
+        height: 48vh;
+    }
+}

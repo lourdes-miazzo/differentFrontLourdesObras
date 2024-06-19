@@ -1,0 +1,107 @@
+.backHome {
+    width: 100vw;
+    max-width: 100%;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/fondomin.png?alt=media&token=f610dbdc-19c9-4e23-acaa-e285e4194c68);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(0deg, #6D8293, #085F7A); */
+  /*   background: linear-gradient(0deg,  #bdbdbd, #6d8194); */
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.spaceHome{
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.videoHome{
+    object-fit: cover;
+    width: 50vw;
+    height: 10vh;
+    margin: 20px;
+}
+@media(min-width: 343px){
+    .videoHome{
+        width: 75vw;
+        height: 38vh;
+    }
+}
+@media(min-width: 374px){
+    .videoHome{
+        width: 63vw;
+        height: 37vh;
+    }
+}
+@media(min-width: 429px){
+    .videoHome{
+        width: 75vw;
+        height: 35vh;
+    }
+}
+@media(min-width: 539px){
+    .videoHome{
+        width: 60vw;
+        height: 50vh;
+    }
+}
+
+  @media(min-width: 912px){
+    .videoHome{
+        width: 25vw;
+        height: 20vh;
+        margin: 45px;
+    }
+
+}
+@media(min-width: 1024px){
+    .spaceHome{
+        flex-direction: row;
+        align-items: center;
+    }
+    .backHome {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/work%2F2022%2F1.webp?alt=media&token=910c309a-31da-40ab-8887-1e9519fa258d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .videoHome{
+        width: 22vw;
+        height: 39vh;
+        margin: 25px;
+    }
+
+}
+@media(min-width: 1280px){
+    .backHome{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .videoHome{
+        width: 20vw;
+        height: 36vh;
+        margin: 29px;
+    }
+    .aroundVideoHome{
+        padding: 2.5rem;
+    }
+    .spaceHome{
+        height: 90vh;
+    
+    }
+}
+
+@media(min-width: 1360px){
+.videoHome{
+    width: 21vw;
+    height: 45vh;
+    margin: 43px;
+}
+
+}

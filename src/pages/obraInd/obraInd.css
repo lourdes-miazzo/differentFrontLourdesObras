@@ -1,0 +1,116 @@
+.backWorkInd{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg, #616161, #6D8293);
+/*     background: linear-gradient(0deg, #6D8293, #48097A); */
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.spaceWorkInd{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    min-height: 80vh;
+}
+
+.aroundWorkInd{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    margin: 0 auto; 
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 88vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.chevronInd{
+    color: white;
+    align-self: center;
+    font-size: 21px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+.titleWorkInd{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 22px;
+}
+.infoWorkInd{
+    color: white;
+    font-family: "Rokkitt", serif;
+    font-size: 18px;
+}
+.aroundInfoText{
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.aroundLoaderIndWork{
+    height: 70vh;
+}
+.loaderTextIndWork{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+@media (min-width: 539px){
+    .aroundInfoText{
+        margin-left: 1.6rem;
+    }
+}
+@media (min-width: 767px){
+    .aroundInfoText{
+        margin-left: 2.2rem;
+    }
+}
+
+@media (min-width: 1024px){
+    
+
+.spaceWorkInd{
+    margin-top: 6.5rem;
+    margin-bottom: 3rem;
+    min-height: 80vh;
+}
+
+.aroundWorkInd{
+    width: 54vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.aroundLoaderIndWork{
+    height: 45vh;
+}
+.chevronInd{
+    font-size: 21px;
+}
+.titleWorkInd{
+    font-size: 22px;
+}
+.infoWorkInd{
+    font-size: 18px;
+   
+}
+.aroundInfoText{
+    margin-left: 0.7rem;
+    margin-right: 1rem;
+}
+.loaderTextIndWork{
+    margin-top: 1rem;
+    font-size: 22px;
+}
+.aroundLoaderIndWork{
+    height: 45vh;
+    
+}
+
+}
