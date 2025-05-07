@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API= "https://lourdesmiazzoobras.onrender.com"
+const API= "http://localhost:8080"
 
 export const getAllTexts = async () => {
     try {
